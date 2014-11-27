@@ -21,5 +21,5 @@ int main()
  */
 int digit_multiple(int i)
 {
-    for(int n=i;i%10&&!(n%(i%10));i/=10);return!i;
+    for(int n=i;i%10&&n%(i%10)<1;i/=10);return!i;
 }
