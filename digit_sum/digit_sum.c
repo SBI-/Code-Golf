@@ -17,5 +17,6 @@
 int main(int argc, char* argv[])
 {
 	int a = atoi(argv[1]), b = atoi(argv[2]), n = atoi(argv[3]);
+	printf("%d %d %d", a, b, n);
 	return EXIT_SUCCESS;
 }
