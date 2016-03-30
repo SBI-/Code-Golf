@@ -1,1 +1,1 @@
-static void Main(string[]args){Console.WriteLine(args.Skip(1).Select(x=>Int32.Parse(x)).Sum(x=>x*x));}
+static void Main(string[]a){Console.WriteLine(a.Skip(1).Select(x=>int.Parse(x)).Sum(x=>x*x));}
